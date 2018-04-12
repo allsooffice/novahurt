@@ -1,0 +1,660 @@
+body
+{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    background-color: #e0e0e0;
+    
+}
+#contener
+{
+    width: 1000px;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #e0e0e0;
+}
+
+
+#stopka
+{
+    width: 1260px;
+    height: 40px;
+    background-color: #666666;
+    color: white;
+    font-size: 19px;
+    text-align: center;
+    padding:30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#panel
+{
+    width: 100%;
+    height: 15px;
+    background-color: white;
+    margin-top: 2px;
+    display:table-cell;
+	vertical-align: middle;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+
+#klik_panel
+{
+    height: 15px;
+    width: auto;
+    float: left;
+    margin-left: 900px;
+    padding-bottom: 3px;
+}
+
+
+
+#menu
+{
+    width: 90%;
+    height: 40px;
+    background-color: #666666;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border-radius:6px;
+        -webkit-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+}
+
+ol
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	font-size: 17px;
+	
+	height: 35px;
+	line-height: 200%;
+	display: inline-block;
+    
+}
+
+ol a
+{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+ol > li
+{
+	float: left;
+	width: 170px;
+	height: 40px;
+	transition-duration:1s;
+
+}
+
+ol > li:first-child
+{
+	
+}
+
+ol > li:hover
+{
+	background-color: #0066cc;
+	border-radius:6px;
+}
+
+ol > li:hover > a
+{
+	color: white;
+}
+
+ol > li > ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	display: none;
+}
+
+ol > li:hover > ul
+{
+	display: block;
+}
+
+ol > li > ul > li
+{
+	background-color: #666666;
+	position: relative;
+	z-index: 100;
+}
+
+ol > li > ul > li:hover
+{
+	background-color: #0066cc;
+	transition-duration:1s;
+}
+
+ol > li > ul > li:hover > a
+{
+	color: white;
+}
+
+
+.tytul
+{
+    background-color: #0066cc;
+    width: 90%;
+    height: 40px;
+    border-radius:6px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 50px;
+    padding-top: 3px;
+    -webkit-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+}
+
+
+#contener
+{
+    width: 100%;
+    min-height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: none;
+    
+    
+}
+
+#lista_kontrahenci
+{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    margin-bottom: 50px;
+
+}
+
+#list_contener
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+#content_szczegoly
+{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+#powrot
+{
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0066cc;
+    color: white;
+    border-radius:6px;
+    margin-bottom: 50px;
+}
+
+#powrot:hover
+{
+
+    background-color: #6699ff;
+    width: 148px;
+    height: 48px;
+    color: white;
+    border: #0066cc 1px solid;
+  
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+#zielony
+{
+    color: forestgreen;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+#logowanie
+{
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 190px;
+    min-height: 159px;
+    width: 249px;
+    background-color: #f3f3f3;
+    border-radius:6px;
+    -webkit-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+}
+
+#index_contener
+{
+    width: 960px;
+    background-color: #f3f3f3;
+    min-height: 290px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    -webkit-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 24px -7px rgba(0,0,0,0.75);
+    margin-bottom: 180px;
+}
+
+.index_button
+{
+    color: white;
+    float: left;
+    width: 150px;
+    height: 100px;
+    background-color: #0066cc;
+    border-radius:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.index_button:hover
+{
+   background-color: #6699ff; 
+}
+
+.error
+{
+    color: red;
+}
+
+#lista_kontrahenci > a:visited
+{
+    color:blue
+}
+
+
+
+#produkty_lista
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 830px;
+}
+
+#transakcje_hurtowe_lista
+{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formularz_logowanie
+{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#logowanie_admin
+{
+    width: 160px;
+    height: 40px;
+    background-color: #0066cc;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    -webkit-box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+}
+
+#logowanie_admin:hover
+{
+    
+    background-color: #6699ff;
+    cursor: pointer;
+}
+
+#wyszukiwarka
+{
+    width: 400px;
+    min-height: 70px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#search_input
+{
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+#ramka_edytuj_produkt
+{
+    width: 500px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e0e0ee;
+    -webkit-box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+    box-shadow: 6px 7px 7px -7px rgba(0,0,0,0.75);
+    font-size: 22px;
+}
+
+.formularz_edycja
+{
+    width: 300px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #f3f3f3
+    
+}
+
+.formularz_edycja:focus
+{
+    border-color: #0066cc;
+    background-color: white;
+    
+}
+
+.formularz_edycja_cena
+{
+    width: 80px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #f3f3f3;
+    
+}
+
+.formularz_edycja_cena:focus
+{
+    border-color: #0066cc;
+    background-color: white;
+    
+}
+
+.formularz_edycja_wymiary
+{
+    width: 120px;
+    height: 30px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #f3f3f3
+    
+}
+
+.formularz_edycja_wymiary:focus
+{
+    border-color: #0066cc;
+    background-color: white;
+    
+}
+
+.wybor
+{
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #f3f3f3;
+}
+
+.wybor:focus
+{
+  background-color: white;  
+}
+
+.formularz_2
+{
+   width: 300px;
+    height: 100px;
+    font-size: 16px;
+    background-color: #f3f3f3;
+}
+
+#stats
+{
+    margin-top: 20px;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    padding-top: 5px;
+    padding-bottom:10px;
+    background-color: #0066cc;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.add_left
+{
+    position: relative;
+    margin-left: 300px;
+    float: left;
+    width: 30%;
+}
+
+.add_right
+{
+    float: left;
+    width: 30%;
+}
+
+.zam-podpowiedz ol
+{
+    width: 270px;
+    margin-bottom: 2px;
+}
+
+.zam-podpowiedz ol li:hover
+{
+    background-color: #0066cc;
+    color: white;
+}
+
+.zam_input
+{
+    width: 300px;
+    height: 40px;
+    padding: 2px;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.zam_select
+{
+    width: 275px;
+    height: 40px;
+    padding: 2px;
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-left: -20px;
+}
+
+.zam_button
+{
+    padding-top: 5px;
+    margin-left: 50px;
+    width: 300px;
+    height: 35px;
+    background-color: #0066cc;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.zam_button:hover
+{
+    background-color: #6699ff;
+}
+
+.zam-podpowiedz
+{
+    display: none;
+    position: absolute;
+    width: 280px;
+    background-color: white;
+    top: 46px;
+    left: 50px;
+    color: black;
+    padding-bottom: 5px;
+}
+
+.zam-podpowiedz ol li
+{
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding: 1px;
+}
+
+#przedmiot
+{
+    margin-left: -25px;
+}
+
+#przedmiot-cena
+{
+    float: left;
+}
+
+#przedmiot-sztuk
+{
+    margin-left: 50px;
+    margin-right: 10px;
+   float: left; 
+}
+
+.clear
+{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 335px;
+}
+
+#sell-list
+{
+    width: 430px;
+    min-height: 80px;
+}
+
+#sell-list ol
+{
+    margin-top: 10px;
+    height: 80px;
+}
+
+#sell-list ol li
+{
+    font-size: 15px;
+    width: 430px;
+    background-color: white;
+    margin-bottom: 10px;
+    height: 80px;
+}
+
+#sell-list ol li:hover
+{
+    background-color: white;
+}
+
+.center i
+{
+    font-size: 13px;
+}
+
+.newsletter-emails
+{
+  width: 30%;
+  height: 150px;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.newsletter-temat
+{
+ width: 30%;
+  height: 30px;
+  border-radius: 3px;
+  padding: 3px;
+  font-size: 18px;
+}
+
+.newsletter-tresc
+{
+   width: 30%;
+  height: 250px;
+  border-radius: 3px;
+  padding: 5px;
+  font-family: 'Kanit', sans-serif;   
+}
+
+.newsletter-send
+{
+  background-color: #0066cc;
+    width: 15%;
+    height: 40px;
+    color: white;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}

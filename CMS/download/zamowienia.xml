@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transactions>
+
+ <transaction>
+  <parentId/>
+  <Id>1601</Id>
+  <Name>MONZA BIANCO WHITE x 4, </Name>
+  <OrderId>1601</OrderId>
+  <CustomerLogin>My Travel Sp. z o.o. Sławomir Hrycyk</CustomerLogin>
+  <CustomerEmail>slawekhrycyk@wp.pl</CustomerEmail>
+  <CustomerName>My Travel Sp. z o.o. Sławomir Hrycyk</CustomerName>
+  <CustomerPhone>886817996</CustomerPhone>
+  <CustomerAddress>Pruszkowska 29b5/31</CustomerAddress>
+  <CustomerZip>02-119</CustomerZip>
+  <CustomerCity>Warszawa</CustomerCity>
+  <CustomerCountryCode>PL</CustomerCountryCode>
+  <CustomerCountryName>Polska</CustomerCountryName>
+  <RecipientName>My Travel Sp. z o.o. Sławomir Hrycyk</RecipientName>
+  <RecipientCompanyName/>
+  <RecipientPhone>886817996</RecipientPhone>
+  <RecipientAddress>Pruszkowska 29b</RecipientAddress>
+  <RecipientZip>02-119</RecipientZip>
+  <RecipientCity>Warszawa</RecipientCity>
+  <RecipientCountryCode>PL</RecipientCountryCode>
+  <RecipientCountryName>Polska</RecipientCountryName>
+  <InvoiceName/>
+  <InvoiceCompanyName/>
+  <InvoiceAddress/>
+  <InvoiceZip/>
+  <InvoiceCity/>
+  <InvoiceCountryCode/>
+  <InvoiceCountryName/>
+  <VAT-ID/>
+  <Total>492</Total>
+  <Currency>PLN</Currency>
+  <ExchangeRate>1</ExchangeRate>
+  <SellDate>2018-02-05</SellDate>
+  <DeliveryCost>0</DeliveryCost>
+  <DeliveryType>Przesyłka kurierska</DeliveryType>
+  <PaymentType>Płatność elektroniczna</PaymentType>
+  <SellerId>42751817</SellerId>
+  <positions>
+   <position>
+    <transactionId>NVT/1601/03-02</transactionId>
+    <Name/>
+    <Quantity>1</Quantity>
+    <Price>492</Price>
+    <OfferName>Novahurt.pl</OfferName>
+    <Signature/>
+   </position>
+  </positions>
+ </transaction>
+ 
+ <transaction>
+  <parentId/>
+  <Id>1605</Id>
+  <Name>IMPERIA BIANCO WHITE x 2, GENUA BIANCO WHITE 800 x 1, </Name>
+  <OrderId>1605</OrderId>
+  <CustomerLogin>Robert BOGACZYK</CustomerLogin>
+  <CustomerEmail>r.bogaczyk@wp.pl</CustomerEmail>
+  <CustomerName>Robert BOGACZYK</CustomerName>
+  <CustomerPhone>796169440</CustomerPhone>
+  <CustomerAddress>NOWOSĄDECKA 95/31</CustomerAddress>
+  <CustomerZip>35-505</CustomerZip>
+  <CustomerCity>RZESZÓW</CustomerCity>
+  <CustomerCountryCode>PL</CustomerCountryCode>
+  <CustomerCountryName>Polska</CustomerCountryName>
+  <RecipientName>Robert BOGACZYK</RecipientName>
+  <RecipientCompanyName/>
+  <RecipientPhone>796169440</RecipientPhone>
+  <RecipientAddress>NOWOSĄDECKA 9</RecipientAddress>
+  <RecipientZip>35-505</RecipientZip>
+  <RecipientCity>RZESZÓW</RecipientCity>
+  <RecipientCountryCode>PL</RecipientCountryCode>
+  <RecipientCountryName>Polska</RecipientCountryName>
+  <InvoiceName/>
+  <InvoiceCompanyName/>
+  <InvoiceAddress/>
+  <InvoiceZip/>
+  <InvoiceCity/>
+  <InvoiceCountryCode/>
+  <InvoiceCountryName/>
+  <VAT-ID/>
+  <Total>454</Total>
+  <Currency>PLN</Currency>
+  <ExchangeRate>1</ExchangeRate>
+  <SellDate>2018-02-05</SellDate>
+  <DeliveryCost>0</DeliveryCost>
+  <DeliveryType>Przesyłka kurierska</DeliveryType>
+  <PaymentType>Płatność elektroniczna</PaymentType>
+  <SellerId>42751817</SellerId>
+  <positions>
+   <position>
+    <transactionId>NVT/1605/04-02</transactionId>
+    <Name/>
+    <Quantity>1</Quantity>
+    <Price>454</Price>
+    <OfferName>Novahurt.pl</OfferName>
+    <Signature/>
+   </position>
+  </positions>
+ </transaction>
+ </transactions>

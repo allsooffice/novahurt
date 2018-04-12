@@ -1,0 +1,1 @@
+<div class="lognav"><a href="logout.php"><i class=" icon-cancel"></i>Wyloguj</a></div>

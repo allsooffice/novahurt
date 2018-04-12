@@ -1,0 +1,58 @@
+body
+{
+   padding: 0;
+   margin: 0;
+}
+
+.wrapper
+{
+   width: 90%;
+   height: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 5%;
+   text-align: center;
+}
+
+.login
+{
+   margin-top: 10%;
+   border: 1px solid #38B0DE;
+   width: 40%;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 4px;
+   height: 50%;
+   background-color: #f6f6f6;
+}
+
+.password
+{
+   width: 40%;
+   height: 40px;
+   padding: 2px;
+   box-sizing: border-box;
+   font-size: 20px;
+   margin-top: 80px;
+}
+
+.log
+{
+   width: 40%;
+   height: 40px;
+   margin-top: 20px;
+   background-color: #38B0DE;
+   border: none;
+   color: white;
+   cursor: pointer;
+}
+
+.log:hover
+{
+   background-color: #339999;
+}
+
+.error
+{
+   color: darkred;
+}

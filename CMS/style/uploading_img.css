@@ -1,0 +1,167 @@
+.info
+{
+    height: 40px;
+}
+
+h1
+{
+   margin-bottom: 67px;
+}
+
+.error-info
+{
+    color: white;
+    box-sizing: border-box;
+    padding: 0.5%;
+    background-color: #ff6666;
+    width: 35%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #990000;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.image-place
+{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-place ul
+{
+    list-style-type: none; 
+    margin: 0;
+    padding:0; 
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.image-place ul li
+{
+    margin: 0 15px 15px 0;
+    padding: 1px;
+    float: left;
+    width: 130px;
+    height: 130px;
+    text-align:center;
+    border-radius: 4px;
+    border: 1px solid #CDCDCD;
+}
+
+.added-img
+{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-property: all;
+    transition-duration: 0.7s;
+    cursor: move;
+    position: relative;
+}
+
+.trash-img
+{
+    display: none;
+    padding: 8px 0 8px 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    color: #38B0DE;
+    font-size: 18px;
+    transition-duration: 0.7s;
+}
+
+.added-img:hover .trash-img
+{
+    display: block;
+}
+
+.trash-img:hover
+{
+    color: red;
+}
+
+#add-image {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.add-image-label 
+{
+    width: 130px;
+    height: 130px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    color: #CDCDCD;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition-duration: 0.3s;
+    float: left;
+}
+
+.add-image-label i
+{
+    color: #CDCDCD;
+    font-size: 70px;
+}
+
+.add-image-label:hover 
+{
+   border: 1px solid #38B0DE;
+   color: #38B0DE;
+}
+
+.add-image-label:hover i
+{
+   color: #38B0DE;
+}
+
+.loading, .UnLoad
+{
+    position: absolute;
+    width: 130px;
+    height: 110px;
+    top: 20px;
+    left: 10px;
+    background-image: url(../gif/loading.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.UnLoad
+{
+    display: none;
+}
+
+.info1
+{
+   top: 95px;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   background-image: url(../img/head-photo.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.info2
+{
+   top: 95px;
+   left: 33%;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   background-image: url(../img/info-photo.jpg);
+   background-size: 100%;
+   background-repeat: no-repeat;
+}

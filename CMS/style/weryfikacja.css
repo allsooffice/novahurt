@@ -1,0 +1,397 @@
+.new
+{
+    position: relative;
+}
+
+.form-input
+{
+    height: 30px;
+    padding: 2px;
+    font-size: 18px;
+    border: 1px solid #CDCDCD;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.form-input:focus
+{
+   border: 1px solid #38B0DE; 
+}
+
+.name
+{
+    width: 393px;
+}
+
+.autocomplete
+{
+    display: none;
+    position: absolute;
+    border: 1px solid green;
+    background-color: #fff;
+    left: 22.7%;
+    top: 130px;
+    padding-top: 4px;
+    padding-bottom: 2px;
+		z-index: 99999;
+}
+
+.autocomplete ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.autocomplete ul li
+{
+    list-style-type: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.autocomplete ul li:hover
+{
+    background-color: #38B0DE;
+    color: #fff;
+}
+
+.city-input
+{
+    width: 290px;
+}
+
+.city-list
+{
+    width: 293px;
+}
+
+.product
+{
+    width: 270px;
+}
+
+.quantity
+{
+    width: 62px;
+}
+
+.select-input
+{
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    width: 90px;
+    font-size: 16px;
+}
+
+.place
+{
+    width: 193px;
+}
+
+.input-error
+{
+  border: 1px solid red;   
+}
+
+.input-complete
+{
+  border: 1px solid forestgreen;   
+}
+
+.confirm
+{
+    width: 70px;
+    height: 35px;
+    margin-left: 5px;
+    display: inline;
+}
+
+.order-list
+{
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #CDCDCD;
+    min-height: 100px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.order-row
+{
+    border: 1px solid #38B0DE;
+    border-bottom: none;
+    position: relative;
+}
+
+.order-col
+{
+    display: inline-block;
+    display:table-cell;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+.add-new, .delete-new
+{
+    font-size: 26px;
+    cursor: pointer;
+    
+}
+
+.add-new
+{
+    color: #38B0DE;
+}
+
+.add-new:hover
+{
+    color: #38B0DE;
+}
+
+.delete-new
+{
+    color: darkred;
+}
+
+.total, .total-edit
+{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #38B0DE;
+    padding: 1%;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.id-first
+{
+width: 20px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.date-first
+{
+width: 71px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.cust-first
+{
+width: 197px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.city-first
+{
+width: 134px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.price-first
+{
+width: 71px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.products-first
+{
+width: 296px;
+border-right: 1px solid white;
+background-color: #38B0DE;
+color: white;
+}
+
+.edit-first
+{
+background-color: #38B0DE;
+width: 70px;
+color: white;
+}
+
+.id
+{
+    width: 6%;
+    font-size: 13px;
+    border-right: 1px solid #38B0DE;
+}
+
+.date
+{
+    width: 8%;
+    font-size: 13px;
+    border-right: 1px solid #38B0DE;
+}
+
+.cust
+{
+    width: 22%;
+    font-size: 14px;
+    border-right: 1px solid #38B0DE;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.city
+{
+    width: 10%;
+    font-size: 14px;
+    border-right: 1px solid #38B0DE;
+}
+
+.payment
+{
+    width: 15%;
+    font-size: 14px;
+    border-right: 1px solid #38B0DE;
+}
+
+.price
+{
+    width: 8%;
+    border-right: 1px solid #38B0DE;
+    font-size: 13px;
+}
+
+.products
+{
+   width: 175px;
+   font-size: 14px;
+   border-right: 1px solid #38B0DE;
+   text-align: left;
+}
+
+.edit
+{
+    width: 10px;
+    font-size: 13px;
+    border-right: 1px solid #38B0DE;
+    border-right: none;
+    cursor: pointer;
+}
+
+.added-products ol, .added-products-edit ol
+{
+    padding: 0;
+    margin: 0;
+}
+
+.added-products ol li, .added-products-edit ol li
+{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.second
+{
+    background-color: #f6f6f6;
+}
+
+.edit-menu
+{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #38B0DE;
+    bottom: 0px;
+    right: -72px;
+    width: 70px;
+    font-size: 13px;
+    z-index: 999;
+	height: 80px;
+}
+
+.edit-menu ol
+{
+    margin: 0;
+    padding: 0;
+}
+
+.edit-menu ol li
+{
+	margin-top: 15px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.edit-menu ol li:hover
+{
+ color: #38B0DE;    
+}
+
+.edit-button:hover
+{
+    color: red;
+}
+
+.edit-button i 
+{
+    font-size: 17px;
+}
+
+.info-box
+{
+    display: none;
+    left: 58px;
+    box-sizing: border-box;
+    top: 570px;
+    width: 182px;
+    border-radius: 3px;
+    position: fixed;
+    background-color: #66cc99;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+.info-box-error
+{
+    display: none;
+    left: 58px;
+    box-sizing: border-box;
+    top: 570px;
+    width: 182px;
+    border-radius: 3px;
+    position: fixed;
+    background-color: #cc0000;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    -webkit-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 13px -3px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+.no-records
+{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 1px solid forestgreen;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background-color: #66cc99;
+    color: white;
+}
